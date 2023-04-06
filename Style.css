@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: rubik;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.TopNav {
+  position: fixed;
+  display: inline;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 70px;
+  box-shadow: 4px -2px 8px grey;
+  z-index: 99;
+}
+
+#icon {
+  height: 100%;
+  width: 89px;
+  margin-left: 25px;
+}
+
+.container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  position: relative;
+  left: 168px;
+  bottom: 44px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.container li a {
+  display: block;
+  margin-right: 30px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.container li a:hover {
+  color: gray;
+}
+
+.vid1 {
+  width: 100%;
+  height: 542px;
+}
+
+.vid1 video {
+  width: 100%;
+  height: 540px;
+}
+
+.vid1-text {
+  padding-left: 162px;
+  padding-top: 10px;
+  height: 155px;
+}
+
+.vid1-text h1 {
+  font-size: 35px;
+  letter-spacing: 3px;
+  display: inline-block;
+}
+
+.vid1-text h5 {
+  margin-top: 6px;
+  color: rgb(68, 67, 67);
+}
+.vid1-text button {
+  margin-left: 215px;
+  margin-top: 5px;
+  color: white;
+  background-color: #0c121c;
+  width: 150px;
+  height: 50px;
+  border: none;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.vid1-text button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: .6s;
+}
+
+.menu {
+  height: 205px;
+  width: 100%;
+  background-color: #f8f9f9;
+  display: flex;
+  justify-content: space-around;
+}
+.menu img{
+  width: 42px;
+}
+
+.menu h5{
+  padding: 10px 0px;
+  letter-spacing:.5px;
+  cursor: pointer;
+}
+.menu h5:hover{
+  text-decoration:underline;
+  color: #005a2b;
+}
+
+.menu p{
+  font-size: 13px;
+  letter-spacing:.5px;
+}
+
+
+
+.m1{
+  width: 314px;
+  background-color: #f8f9f9;
+  height: 205px;
+  border-right: 1px solid grey;
+  padding: 45px;
+  
+}
+.m2{
+  border-right: 1px solid gray;
+}
+
+
+.cards,
+.cards2 {
+  width: 100%;
+  height: 1510px;
+  padding: 60px;
+}
+.cards1,
+.cards3 {
+  width: 100%;
+  height: 650px;
+  background-color: #f8f9f9;
+  padding: 60px;
+}
+
+.cards3,
+.cards2,
+.cards1,
+.cards h1 {
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.mini-card {
+  height: 444px;
+  width: 360px;
+  margin-top: 20px;
+}
+
+.mini-card img {
+  width: 100%;
+}
+
+.maincard {
+  display: flex;
+  padding-right: 12px;
+  justify-content: space-around;
+}
+
+#un .mini-card {
+  width: 250px;
+}
+
+#dcard2 {
+  height: 640px;
+}
+
+.last {
+  width: 500px;
+  height: 480px;
+}
+
+.mini-card h4 {
+  padding: 18px 0px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.mini-card p {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 19px;
+  color: gray;
+  font-weight: 400;
+  padding: 18px 0px;
+}
+
+.mini-card span {
+  margin-top: 14px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  display: block;
+  padding: 6px 0px;
+  font-weight: 900;
+}
+
+.mini-card span:hover {
+  color: #005a2b;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.last-container{
+  height: 500px;
+  padding: 60px;
+
+}
+
+.last-container h4{
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  display:inline;
+}
+.last-container p{
+  display: block;
+  height: 60px;
+  width:500px;
+}
+
+.last-container button{
+  color: white;
+  background-color: #0c121c;
+  width: 223px;
+  height: 50px;
+  border: none;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+.last-container button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.last-container img{
+  position: relative;
+  left: 520px;
+  bottom: 213px;
+  width: 500px;
+}
+
+/* footer */
+
+.mainfoot{
+  display: flex;
+  justify-content: space-around; 
+}
+
+.foot1,.foot2,.foot3,.foot4{
+  padding:55px;
+  height: 350px;
+  width: 100%;
+}
+
+.mainfoot h5{
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.mainfoot span{
+  color: rgb(68, 67, 67);
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+  font-size:10px;
+}
+
+.foot4 svg{
+  height: 45px;
+  width: 45px;
+
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 51px;
+  width: 45px;
+  padding-bottom: 5px;
+}
+
+.logon{
+  position: relative;
+  bottom: 178px;
+}
+
+
+.cards img:hover,.cards1 img:hover,.mini-card img:hover{
+  filter: brightness(0.75);
+  transition: .8s;
+  cursor: pointer;
+}
+
+.icn{
+  display: flex;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  top:23px
+}
+.icn img{
+  padding-right: 40px;
+  cursor: pointer;
+}
